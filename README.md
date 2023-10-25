@@ -11,6 +11,5 @@ Some students just upload without putting them in a folder, this would be very t
 
 This script automatically deal with the 2 types of uploadings
 
-![image](https://github.com/MotorBottle/Bad-Upload-Detector/assets/71703952/de62437c-f141-4c10-985d-6704a4d419a1)
+![image](https://github.com/MotorBottle/Bad-Upload-Detector/assets/71703952/bafa8374-77b0-42f7-b9cc-4c80ced3a48f)
 
-![image](https://github.com/MotorBottle/Bad-Upload-Detector/assets/71703952/b1034221-d334-4179-a504-0364016346c2)
