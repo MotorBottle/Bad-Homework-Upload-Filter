@@ -7,7 +7,8 @@ For good homework uploads, they are supposed to be in a folder when being extrac
 
 Some students just upload without putting them in a folder, this would be very troublesome for teachers or TAs.
 
-![image](https://github.com/MotorBottle/Bad-Upload-Detector/assets/71703952/a9a5a266-40ab-48b3-a22a-1aafcfc99e4b)
+![image](https://github.com/MotorBottle/Bad-Upload-Detector/assets/71703952/f3112c55-3f9b-4cf1-83f1-aafef6fe6abc)
+
 
 This script automatically deal with the 2 types of uploadings
 
