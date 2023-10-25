@@ -1,7 +1,7 @@
 # Bad-Upload-Detector
 The script will find those upload files without putting them in folder and rename as required, for TAs' conveinece
 
-For good homework uploads, they are supposed to be in a folder when being extracted.
+For good homework uploads, they are supposed to be in a folder when being extracted. For example, in my school the folder should be renamed by StudentID-Date-HwNumber
 
 ![image](https://github.com/MotorBottle/Bad-Upload-Detector/assets/71703952/12d872f7-c69a-482e-a4b7-00dc61d860e1)
 
