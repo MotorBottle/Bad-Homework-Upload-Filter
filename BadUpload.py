@@ -12,6 +12,16 @@ class DirectoryProcessor:
         self.extracted_dir = os.path.join(directory, 'extracted')
         self.keyword = keyword
 
+    def copy_rar_files(self):
+        bad_upload_dir = os.path.join(self.directory, 'BadUpload')
+        os.makedirs(bad_upload_dir, exist_ok=True)
+        for filename in os.listdir(self.directory):
+            if filename.endswith('.rar'):
+                rar_path = os.path.join(self.directory, filename)
+                dest_path = os.path.join(bad_upload_dir, filename)
+                shutil.copy(rar_path, dest_path)
+                print(f'Copied {filename} to {dest_path}')
+
     def extract_tar_files(self):
         bad_upload_dir = os.path.join(self.directory, 'BadUpload')
         os.makedirs(bad_upload_dir, exist_ok=True)
@@ -32,6 +42,7 @@ class DirectoryProcessor:
 
 
     def extract_zip_files(self):
+        self.copy_rar_files()
         self.extract_tar_files()
         os.makedirs(self.extracted_dir, exist_ok=True)
         for filename in os.listdir(self.directory):
