@@ -10,7 +10,7 @@ Some students just upload without putting them in a folder, this would be very t
 ![image](https://github.com/MotorBottle/Bad-Upload-Detector/assets/71703952/f3112c55-3f9b-4cf1-83f1-aafef6fe6abc)
 
 
-This script automatically deal with the 2 types of uploadings
+This script automatically deal with the 2 types of uploadings. And as we require students upload using .zip format, tar/rar files would also be put into the BadUpload folder
 
 ![image](https://github.com/MotorBottle/Bad-Upload-Detector/assets/71703952/bafa8374-77b0-42f7-b9cc-4c80ced3a48f)
 
