@@ -5,6 +5,7 @@ import shutil
 directory = r'C:\Users\Techer\Document\Submissions' # Set your directory to process here
 keyword = 'hw3' # Set your keyword here
 # The script will find those upload files without putting them in folder (eg. name-date-hw3) as required
+
 class DirectoryProcessor:
     def __init__(self, directory, keyword):
         self.directory = directory
