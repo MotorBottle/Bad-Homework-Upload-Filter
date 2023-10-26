@@ -1,5 +1,5 @@
 # Bad-Homework-Upload-Filter
-The script finds those who upload files without putting them in a folder and rename as required, for TAs' conveinece
+The script finds those who upload files without putting them in a folder and rename as required, for TAs' conveinece. The script assumes the directory contains .zip files (or 7z/rar/tar) of each student's upload.
 
 For good homework uploads, they are supposed to be in a folder when being extracted. For example, in my school the folder should be renamed by StudentID-Date-HwNumber
 
